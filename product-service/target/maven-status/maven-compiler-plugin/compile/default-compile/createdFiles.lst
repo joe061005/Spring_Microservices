@@ -1,0 +1,10 @@
+com/mircoservice/productservice/dto/ProductRequest.class
+com/mircoservice/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/mircoservice/productservice/model/Product.class
+com/mircoservice/productservice/repository/ProductRepository.class
+com/mircoservice/productservice/ProductServiceApplication.class
+com/mircoservice/productservice/model/Product$ProductBuilder.class
+com/mircoservice/productservice/dto/ProductResponse.class
+com/mircoservice/productservice/service/ProductService.class
+com/mircoservice/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/mircoservice/productservice/controller/ProductController.class
