@@ -1,8 +1,11 @@
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/OrderServiceApplication.java
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/repository/OrderRepository.java
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/model/Order.java
+/Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/event/OrderPlacedEvent.java
+/Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/dto/InventoryResponse.java
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/dto/OrderLineItemsDto.java
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/service/OrderService.java
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/model/OrderLineItems.java
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/dto/OrderRequest.java
 /Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/controller/OrderController.java
+/Users/joe/Desktop/microservices.nosync/order-service/src/main/java/com/microservice/orderservice/config/WebClientConfig.java

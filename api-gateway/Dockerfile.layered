@@ -1,0 +1,17 @@
+# set the build version as builder
+FROM eclipse-temurin:17.0.4.1_1-jre as builder
+WORKDIR extracted
+ADD target/*.jar app.jar
+# Djarmode - target = all 4 layers
+# extract - extract all the layers from spring boot jar and save them in 'extracted'
+RUN java -Djarmode=layertools -jar app.jar extract
+
+# --from -> access the directory from the previous build
+FROM eclipse-temurin:17.0.4.1_1-jre
+WORKDIR application
+COPY --from=builder extracted/dependencies/ ./
+COPY --from=builder extracted/spring-boot-loader/ ./
+COPY --from=builder extracted/snapshot-dependencies/ ./
+COPY --from=builder extracted/application/ ./
+EXPOSE 8080
+ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher"]

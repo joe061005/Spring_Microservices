@@ -3,3 +3,4 @@
 /Users/joe/Desktop/microservices.nosync/inventory-service/src/main/java/com/microservice/inventoryservice/InventoryServiceApplication.java
 /Users/joe/Desktop/microservices.nosync/inventory-service/src/main/java/com/microservice/inventoryservice/model/Inventory.java
 /Users/joe/Desktop/microservices.nosync/inventory-service/src/main/java/com/microservice/inventoryservice/controller/InventoryController.java
+/Users/joe/Desktop/microservices.nosync/inventory-service/src/main/java/com/microservice/inventoryservice/dto/InventoryResponse.java
