@@ -5,7 +5,6 @@ services:
   postgres-order:
     container_name: postgres-order
     image: postgres
-    platform: linux/amd64
     environment:
       POSTGRES_DB: order-service
       POSTGRES_USER: joe061005
@@ -25,7 +24,6 @@ services:
   postgres-inventory:
     container_name: postgres-inventory
     image: postgres
-    platform: linux/amd64
     environment:
       POSTGRES_DB: inventory-service
       POSTGRES_USER: joe061005
@@ -42,7 +40,6 @@ services:
   mongo:
     container_name: mongo
     image: mongo:4.4.14-rc0-focal
-    platform: linux/amd64
     restart: always
     ports:
       - "27017:27017"
@@ -55,7 +52,6 @@ services:
   keycloak-mysql:
     container_name: keycloak-mysql
     image: mysql:5.7
-    platform: linux/amd64
     volumes:
       - ./mysql_keycloak_data:/var/lib/mysql
     environment:
